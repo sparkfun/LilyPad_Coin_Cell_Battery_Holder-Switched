@@ -5918,6 +5918,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 <package name="FIDUCIAL-1X2">
 <smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
 </package>
+<package name="REVISION">
+<text x="0" y="0" size="1.778" layer="51" font="vector">Revision By: </text>
+</package>
 </packages>
 <symbols>
 <symbol name="OSHW-LOGO">
@@ -9651,6 +9654,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="0.762" y1="0.762" x2="-0.762" y2="-0.762" width="0.254" layer="94"/>
 <circle x="0" y="0" radius="1.27" width="0.254" layer="94"/>
 </symbol>
+<symbol name="REVISION">
+<text x="0" y="0" size="2.54" layer="94">Revision By: </text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="OSHW-LOGO" prefix="LOGO">
@@ -9840,6 +9846,18 @@ Various fiducial points for machine vision alignment.</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="REVISION">
+<gates>
+<gate name="G$1" symbol="REVISION" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="REVISION">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -9864,12 +9882,14 @@ Various fiducial points for machine vision alignment.</description>
 <part name="JP1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
 <part name="JP2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_FLAME" device=".1_INCH"/>
+<part name="U$1" library="SparkFun-Aesthetics" deviceset="REVISION" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="170.942" y="11.684" size="1.778" layer="94">Jim Lindblom</text>
-<text x="238.76" y="7.62" size="1.778" layer="94">v14</text>
+<text x="170.942" y="11.684" size="2.54" layer="94" font="vector">Jim Lindblom</text>
+<text x="238.76" y="7.62" size="1.778" layer="94">v15</text>
+<text x="177.8" y="7.62" size="2.54" layer="94" font="vector">Mary West </text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -9893,6 +9913,7 @@ Various fiducial points for machine vision alignment.</description>
 <instance part="JP1" gate="G$1" x="236.22" y="30.48"/>
 <instance part="JP2" gate="G$1" x="243.84" y="30.48"/>
 <instance part="LOGO1" gate="G$1" x="215.9" y="40.64"/>
+<instance part="U$1" gate="G$1" x="149.86" y="7.62"/>
 </instances>
 <busses>
 </busses>
