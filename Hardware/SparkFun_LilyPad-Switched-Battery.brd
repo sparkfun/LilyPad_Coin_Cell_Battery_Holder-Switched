@@ -178,6 +178,7 @@
 <text x="10.16" y="-12.7" size="1.778" layer="51" font="vector">Mary West</text>
 <text x="10.16" y="-10.16" size="1.778" layer="51" font="vector">Jim Lindblom</text>
 <text x="22.86" y="6.35" size="0.8128" layer="22" font="vector" ratio="15" rot="SMR0">Coin Cell Battery Holder</text>
+<text x="-9.8425" y="-15.24" size="1.778" layer="51" font="vector">v15</text>
 </plain>
 <libraries>
 <library name="SparkFun">
