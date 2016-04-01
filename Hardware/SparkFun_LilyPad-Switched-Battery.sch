@@ -9924,7 +9924,7 @@ Various fiducial points for machine vision alignment.</description>
 <part name="JP2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_FLAME" device=".1_INCH"/>
 <part name="U$1" library="SparkFun-Aesthetics" deviceset="REVISION" device=""/>
-<part name="S2" library="SparkFun-Electromechanical" deviceset="SWITCH-SPDT" device="SMD"/>
+<part name="S1" library="SparkFun-Electromechanical" deviceset="SWITCH-SPDT" device="SMD"/>
 </parts>
 <sheets>
 <sheet>
@@ -9955,7 +9955,7 @@ Various fiducial points for machine vision alignment.</description>
 <instance part="JP2" gate="G$1" x="243.84" y="30.48"/>
 <instance part="LOGO1" gate="G$1" x="215.9" y="40.64"/>
 <instance part="U$1" gate="G$1" x="149.86" y="7.62"/>
-<instance part="S2" gate="1" x="104.14" y="96.52" rot="R180"/>
+<instance part="S1" gate="1" x="104.14" y="96.52" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -9983,14 +9983,14 @@ Various fiducial points for machine vision alignment.</description>
 <junction x="93.98" y="93.98"/>
 <pinref part="ST3" gate="G$1" pin="1"/>
 <pinref part="ST4" gate="G$1" pin="1"/>
-<pinref part="S2" gate="1" pin="O"/>
+<pinref part="S1" gate="1" pin="O"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
 <wire x1="106.68" y1="96.52" x2="109.22" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="BAT1" gate="G$1" pin="+"/>
-<pinref part="S2" gate="1" pin="P"/>
+<pinref part="S1" gate="1" pin="P"/>
 </segment>
 </net>
 </nets>

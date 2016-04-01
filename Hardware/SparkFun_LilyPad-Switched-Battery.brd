@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -157,19 +157,19 @@
 <text x="28.067" y="6.731" size="2.54" layer="21" font="vector" ratio="15" rot="R180">-</text>
 <text x="19.05" y="26.924" size="1.27" layer="21" font="vector" ratio="15" rot="R270">ON</text>
 <text x="10.16" y="27.432" size="1.27" layer="21" font="vector" ratio="15" rot="R270">OFF</text>
-<wire x1="-0.127" y1="15.113" x2="4.953" y2="1.143" width="0.254" layer="20" curve="45"/>
-<wire x1="4.953" y1="1.143" x2="9.017" y2="1.778" width="0.254" layer="20" curve="103.204965"/>
-<wire x1="9.017" y1="1.778" x2="9.9187" y2="3.302" width="0.254" layer="20" curve="-19.629056"/>
+<wire x1="-0.127" y1="15.113" x2="4.953" y2="1.143" width="0.2032" layer="20" curve="45"/>
+<wire x1="4.953" y1="1.143" x2="9.017" y2="1.778" width="0.2032" layer="20" curve="103.204965"/>
+<wire x1="9.017" y1="1.778" x2="9.9187" y2="3.302" width="0.2032" layer="20" curve="-19.629056"/>
 <wire x1="9.9187" y1="3.302" x2="10.6553" y2="3.7084" width="0.254" layer="20" curve="-11.175504"/>
 <wire x1="10.6553" y1="3.7084" x2="13.2207" y2="4.572" width="0.254" layer="20" curve="-16.936116"/>
 <wire x1="13.2207" y1="4.572" x2="15.4686" y2="4.7879" width="0.254" layer="20" curve="-10.575233"/>
 <wire x1="15.4686" y1="4.7879" x2="17.8435" y2="4.445" width="0.254" layer="20" curve="-12.900671"/>
-<wire x1="17.8435" y1="4.445" x2="19.431" y2="3.8989" width="0.254" layer="20" curve="-8.804635"/>
+<wire x1="17.8435" y1="4.445" x2="19.431" y2="3.8989" width="0.2032" layer="20" curve="-8.804635"/>
 <wire x1="19.9644" y1="3.6322" x2="20.828" y2="3.0861" width="0.254" layer="20" curve="-13.702835"/>
-<wire x1="29.972" y1="15.494" x2="-0.127" y2="15.113" width="0.254" layer="20" curve="180"/>
-<wire x1="29.972" y1="15.494" x2="25.781" y2="1.397" width="0.254" layer="20" curve="-45"/>
-<wire x1="25.781" y1="1.397" x2="21.717" y2="1.27" width="0.254" layer="20" curve="-102.203889"/>
-<wire x1="21.717" y1="1.27" x2="20.828" y2="3.0861" width="0.254" layer="20" curve="13.355078"/>
+<wire x1="29.972" y1="15.494" x2="-0.127" y2="15.113" width="0.2032" layer="20" curve="180"/>
+<wire x1="29.972" y1="15.494" x2="25.781" y2="1.397" width="0.2032" layer="20" curve="-45"/>
+<wire x1="25.781" y1="1.397" x2="21.717" y2="1.27" width="0.2032" layer="20" curve="-102.203889"/>
+<wire x1="21.717" y1="1.27" x2="20.828" y2="3.0861" width="0.2032" layer="20" curve="13.355078"/>
 <wire x1="19.9644" y1="3.6322" x2="19.431" y2="3.8989" width="0.254" layer="20"/>
 <text x="25.908" y="20.574" size="2.54" layer="22" font="vector" ratio="15" rot="MR180">+</text>
 <text x="27.432" y="4.191" size="2.54" layer="22" font="vector" ratio="15" rot="MR0">-</text>
@@ -179,6 +179,17 @@
 <text x="10.16" y="-10.16" size="1.778" layer="51" font="vector">Jim Lindblom</text>
 <text x="22.86" y="6.35" size="0.8128" layer="22" font="vector" ratio="15" rot="SMR0">Coin Cell Battery Holder</text>
 <text x="-9.8425" y="-15.24" size="1.778" layer="51" font="vector">v15</text>
+<text x="2.032" y="14.732" size="1.016" layer="16" font="vector" ratio="25" rot="MR270">v15</text>
+<text x="31.75" y="0" size="1.778" layer="51" font="vector" ratio="15">NOTE: Use 0.032" board thickness</text>
+<dimension x1="-0.127" y1="15.113" x2="30.226" y2="14.986" x3="15.0495" y3="37.084" textsize="1.778" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
+<dimension x1="14.9225" y1="15.3035" x2="15.130553125" y2="0.25423125" x3="15.026528125" y3="7.778865625" textsize="1.778" textratio="15" layer="47" dtype="radius" unit="inch"/>
+<dimension x1="14.9225" y1="15.3035" x2="14.57791875" y2="30.350259375" x3="14.750209375" y3="22.826878125" textsize="1.778" textratio="15" layer="47" dtype="radius" unit="inch"/>
+<dimension x1="9.017" y1="1.778" x2="21.59" y2="1.778" x3="15.3035" y3="-2.032" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="6.477" y1="2.667" x2="24.003" y2="2.667" x3="15.24" y3="-4.318" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="4.572" y1="22.733" x2="25.273" y2="22.733" x3="14.9225" y3="32.766" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="4.572" y1="22.733" x2="6.477" y2="2.667" x3="-7.6794375" y3="11.4464625" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="25.273" y1="22.733" x2="24.003" y2="2.667" x3="38.971771875" y3="11.7928" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<text x="34.29" y="28.194" size="1.778" layer="47" font="vector" ratio="15">All units in Inches</text>
 </plain>
 <libraries>
 <library name="LilyPad-Wearables">
@@ -692,7 +703,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="LOGO1" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="11.43" y="24.1935" rot="MR0"/>
 <element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="-21.80295625" y="-10.16"/>
 <element name="U$1" library="SparkFun-Aesthetics" package="REVISION" value="REVISION" x="-10.16" y="-12.7"/>
-<element name="S2" library="SparkFun-Electromechanical" package="AYZ0202" value="" x="15.24" y="25.4" rot="R180">
+<element name="S1" library="SparkFun-Electromechanical" package="AYZ0202" value="" x="15.24" y="25.4" rot="R180">
 <attribute name="SF_ID" value="COM-00597" x="15.24" y="25.4" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 <attribute name="PROD_ID" value="SWCH-08179" x="15.24" y="25.4" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 </element>
@@ -710,17 +721,15 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <signal name="N$1">
 <contactref element="ST3" pad="1"/>
 <contactref element="ST4" pad="1"/>
-<wire x1="17.78" y1="24.384" x2="19.05" y2="24.384" width="1.016" layer="1"/>
-<wire x1="19.05" y1="24.384" x2="20.3835" y2="24.384" width="1.016" layer="1"/>
-<wire x1="25.273" y1="22.733" x2="22.0345" y2="22.733" width="1.016" layer="1"/>
-<wire x1="4.572" y1="22.733" x2="8.128" y2="22.733" width="1.016" layer="1"/>
-<wire x1="9.8425" y1="24.4475" x2="18.9865" y2="24.4475" width="1.016" layer="1"/>
-<wire x1="18.9865" y1="24.4475" x2="19.05" y2="24.384" width="1.016" layer="1"/>
-<wire x1="8.128" y1="22.733" x2="9.8425" y2="24.4475" width="1.016" layer="1"/>
-<wire x1="22.0345" y1="22.733" x2="20.3835" y2="24.384" width="1.016" layer="1"/>
-<contactref element="S2" pad="1"/>
-<wire x1="17.74" y1="22.575" x2="17.74" y2="24.344" width="1.016" layer="1"/>
-<wire x1="17.74" y1="24.344" x2="17.78" y2="24.384" width="1.016" layer="1"/>
+<contactref element="S1" pad="1"/>
+<wire x1="4.572" y1="22.733" x2="8.763" y2="22.733" width="0.8128" layer="1"/>
+<wire x1="8.763" y1="22.733" x2="10.16" y2="24.13" width="0.8128" layer="1"/>
+<wire x1="20.32" y1="24.13" x2="21.717" y2="22.733" width="0.8128" layer="1"/>
+<wire x1="25.273" y1="22.733" x2="21.717" y2="22.733" width="0.8128" layer="1"/>
+<wire x1="17.74" y1="24.09" x2="17.78" y2="24.13" width="0.8128" layer="1"/>
+<wire x1="10.16" y1="24.13" x2="17.78" y2="24.13" width="0.8128" layer="1"/>
+<wire x1="17.74" y1="22.575" x2="17.74" y2="24.09" width="0.8128" layer="1"/>
+<wire x1="17.78" y1="24.13" x2="20.32" y2="24.13" width="0.8128" layer="1"/>
 </signal>
 <signal name="N$3">
 <contactref element="BAT1" pad="POSITIVE@1"/>
@@ -728,15 +737,15 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="BAT1" pad="POSITIVE@3"/>
 <contactref element="BAT1" pad="POSITIVE@4"/>
 <wire x1="26.24" y1="9.88" x2="26.24" y2="12.98" width="1.016" layer="1"/>
-<wire x1="26.24" y1="12.98" x2="23.85" y2="12.98" width="1.016" layer="1"/>
-<wire x1="23.85" y1="12.98" x2="17.78" y2="19.05" width="1.016" layer="1"/>
 <wire x1="4.24" y1="9.88" x2="4.24" y2="12.98" width="1.016" layer="1"/>
-<wire x1="4.24" y1="12.98" x2="6.63" y2="12.98" width="1.016" layer="1"/>
-<wire x1="6.63" y1="12.98" x2="12.7" y2="19.05" width="1.016" layer="1"/>
-<wire x1="12.7" y1="19.05" x2="15.24" y2="19.05" width="1.016" layer="1"/>
-<contactref element="S2" pad="2"/>
-<wire x1="15.24" y1="19.05" x2="17.78" y2="19.05" width="1.016" layer="1"/>
-<wire x1="15.24" y1="22.575" x2="15.24" y2="19.05" width="1.016" layer="1"/>
+<contactref element="S1" pad="2"/>
+<wire x1="15.24" y1="22.575" x2="15.24" y2="19.05" width="0.8128" layer="1"/>
+<wire x1="4.24" y1="12.98" x2="4.24" y2="16.94" width="0.8128" layer="1"/>
+<wire x1="4.24" y1="16.94" x2="6.35" y2="19.05" width="0.8128" layer="1"/>
+<wire x1="26.24" y1="12.98" x2="26.24" y2="16.94" width="0.8128" layer="1"/>
+<wire x1="26.24" y1="16.94" x2="24.13" y2="19.05" width="0.8128" layer="1"/>
+<wire x1="6.35" y1="19.05" x2="15.24" y2="19.05" width="0.8128" layer="1"/>
+<wire x1="15.24" y1="19.05" x2="24.13" y2="19.05" width="0.8128" layer="1"/>
 </signal>
 </signals>
 <errors>
@@ -748,31 +757,35 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <approved hash="3,16,c0063daa13fb5026"/>
 <approved hash="3,1,106acf2cc3526314"/>
 <approved hash="3,16,eb3cfc21947d423b"/>
-<approved hash="5,1,7e112ae6f52210d6"/>
-<approved hash="5,1,650de08afd204801"/>
+<approved hash="18,29,bfa7288183c2d824"/>
+<approved hash="18,29,a07898027f038bb9"/>
+<approved hash="18,29,af118902470385d0"/>
+<approved hash="18,29,aece27818dc2e04d"/>
+<approved hash="5,1,f4444060edd01393"/>
+<approved hash="5,1,c3eb01c76f699c01"/>
 <approved hash="5,1,837ae31f513a6cf1"/>
 <approved hash="5,1,9b4c9500f28a47b3"/>
-<approved hash="5,1,166c798cecf2b5f4"/>
+<approved hash="5,1,751a9e154d73d46e"/>
 <approved hash="5,1,04de1463a88ef8ac"/>
-<approved hash="5,1,dc6e4db528acdee4"/>
-<approved hash="5,1,84ca0911375fe811"/>
-<approved hash="5,1,c6c82bcafe38a214"/>
-<approved hash="5,1,614e2befaa73de0b"/>
+<approved hash="5,1,6f88c043320e5024"/>
+<approved hash="5,1,1aa8d1cc07dfbbff"/>
+<approved hash="5,1,f67443caaa15681a"/>
+<approved hash="5,1,1f7ffb414a6ecc3d"/>
 <approved hash="5,1,d832f39a1bd0954a"/>
 <approved hash="5,1,c34d8fc887892adb"/>
-<approved hash="5,1,7964d5dbbf31e744"/>
+<approved hash="5,1,5d90ccd3d1d7aeea"/>
 <approved hash="5,1,b89c69e261ad1e87"/>
-<approved hash="5,1,fd63cbde6eec3310"/>
-<approved hash="5,16,7e112ae6f52210d6"/>
-<approved hash="5,16,650de08afd204801"/>
+<approved hash="5,1,35f1661d7c970804"/>
+<approved hash="5,16,f4444060edd01393"/>
+<approved hash="5,16,c3eb01c76f699c01"/>
 <approved hash="5,16,837ae31f513a6cf1"/>
-<approved hash="5,16,166c798cecf2b5f4"/>
+<approved hash="5,16,751a9e154d73d46e"/>
 <approved hash="5,16,04de1463a88ef8ac"/>
-<approved hash="5,16,84ca0911375fe811"/>
-<approved hash="5,16,c6c82bcafe38a214"/>
-<approved hash="5,16,614e2befaa73de0b"/>
+<approved hash="5,16,1aa8d1cc07dfbbff"/>
+<approved hash="5,16,f67443caaa15681a"/>
+<approved hash="5,16,1f7ffb414a6ecc3d"/>
 <approved hash="5,16,d832f39a1bd0954a"/>
-<approved hash="5,16,7964d5dbbf31e744"/>
+<approved hash="5,16,5d90ccd3d1d7aeea"/>
 <approved hash="5,16,b89c69e261ad1e87"/>
 </errors>
 </board>
