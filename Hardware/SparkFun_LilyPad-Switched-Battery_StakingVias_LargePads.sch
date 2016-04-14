@@ -9920,7 +9920,7 @@ Various fiducial points for machine vision alignment.</description>
 <part name="ST2" library="LilyPad-Wearables" deviceset="SEWTAP" device="6"/>
 <part name="ST4" library="LilyPad-Wearables" deviceset="SEWTAP" device="6"/>
 <part name="U$5" library="LilyPad-Wearables" deviceset="LOGO-LP" device="LP"/>
-<part name="BAT1" library="SparkFun-Electromechanical" deviceset="BATTERY" device="20MM_4LEGS_OVERPASTE" value="20mm coincell"/>
+<part name="BAT1" library="SparkFun-Electromechanical" deviceset="BATTERY" device="20MM_4LEGS" value="20mm coincell"/>
 <part name="U$7" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S"/>
 <part name="JP1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
 <part name="JP2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
