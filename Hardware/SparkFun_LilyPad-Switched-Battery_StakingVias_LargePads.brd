@@ -308,16 +308,16 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="-10.55" y1="-4.55" x2="-10.55" y2="-3.2" width="0.2032" layer="21"/>
 <wire x1="10.55" y1="-4.55" x2="10.55" y2="-3.2" width="0.2032" layer="21"/>
 <circle x="0" y="0" radius="10" width="0.2032" layer="51"/>
-<smd name="POSITIVE@1" x="-10.922" y="1.524" dx="2.54" dy="3.175" layer="1" rot="R180" cream="no"/>
+<smd name="POSITIVE@1" x="-11.176" y="1.651" dx="2.032" dy="3.175" layer="1" rot="R180" cream="no"/>
 <smd name="NEGATIVE" x="0" y="0" dx="13" dy="8" layer="1" roundness="100" cream="no"/>
-<smd name="POSITIVE@4" x="10.922" y="-1.524" dx="2.54" dy="3.175" layer="1" cream="no"/>
-<smd name="POSITIVE@2" x="-10.922" y="-1.524" dx="2.54" dy="3.175" layer="1" cream="no"/>
-<smd name="POSITIVE@3" x="10.922" y="1.524" dx="2.54" dy="3.175" layer="1" rot="R180" cream="no"/>
+<smd name="POSITIVE@4" x="11.176" y="-1.651" dx="2.032" dy="3.175" layer="1" cream="no"/>
+<smd name="POSITIVE@2" x="-11.176" y="-1.524" dx="2.032" dy="3.175" layer="1" cream="no"/>
+<smd name="POSITIVE@3" x="11.176" y="1.524" dx="2.032" dy="3.175" layer="1" rot="R180" cream="no"/>
 <text x="-0.889" y="5.969" size="0.4064" layer="25">&gt;NAME</text>
 <text x="-0.889" y="4.699" size="0.4064" layer="27">&gt;VALUE</text>
 <rectangle x1="-2" y1="-2" x2="2" y2="2" layer="31"/>
-<rectangle x1="-12.7" y1="-3.556" x2="-9.144" y2="3.556" layer="31"/>
-<rectangle x1="9.144" y1="-3.556" x2="12.7" y2="3.556" layer="31"/>
+<rectangle x1="-13.462" y1="-3.429" x2="-9.906" y2="3.683" layer="31"/>
+<rectangle x1="9.906" y1="-3.556" x2="13.462" y2="3.556" layer="31"/>
 </package>
 <package name="AYZ0202">
 <description>&lt;b&gt;DPDT Slide Switch SMD&lt;/b&gt;
@@ -730,17 +730,16 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="BAT1" pad="POSITIVE@2"/>
 <contactref element="BAT1" pad="POSITIVE@3"/>
 <contactref element="BAT1" pad="POSITIVE@4"/>
-<wire x1="26.162" y1="12.954" x2="26.162" y2="9.906" width="1.016" layer="1"/>
-<wire x1="4.318" y1="9.906" x2="4.318" y2="12.954" width="1.016" layer="1"/>
+<wire x1="26.416" y1="12.954" x2="26.416" y2="9.779" width="1.016" layer="1"/>
+<wire x1="4.064" y1="9.906" x2="4.064" y2="13.081" width="1.016" layer="1"/>
 <contactref element="S1" pad="2"/>
-<wire x1="15.24" y1="19.558" x2="6.858" y2="19.558" width="0.8128" layer="1"/>
-<wire x1="6.858" y1="19.558" x2="4.318" y2="17.018" width="0.8128" layer="1"/>
-<wire x1="4.318" y1="17.018" x2="4.318" y2="12.954" width="0.8128" layer="1"/>
-<wire x1="23.622" y1="19.558" x2="25.908" y2="17.272" width="0.8128" layer="1"/>
-<wire x1="25.908" y1="17.272" x2="25.908" y2="13.208" width="0.8128" layer="1"/>
-<wire x1="25.908" y1="13.208" x2="26.162" y2="12.954" width="0.8128" layer="1"/>
-<wire x1="15.24" y1="19.558" x2="15.24" y2="22.575" width="0.8128" layer="1"/>
-<wire x1="23.622" y1="19.558" x2="15.24" y2="19.558" width="0.8128" layer="1"/>
+<wire x1="15.24" y1="22.575" x2="15.24" y2="19.05" width="0.8128" layer="1"/>
+<wire x1="15.24" y1="19.05" x2="24.13" y2="19.05" width="0.8128" layer="1"/>
+<wire x1="24.13" y1="19.05" x2="26.416" y2="16.764" width="0.8128" layer="1"/>
+<wire x1="26.416" y1="12.954" x2="26.416" y2="16.764" width="0.8128" layer="1"/>
+<wire x1="4.064" y1="13.081" x2="4.064" y2="16.764" width="0.8128" layer="1"/>
+<wire x1="15.24" y1="19.05" x2="6.35" y2="19.05" width="0.8128" layer="1"/>
+<wire x1="6.35" y1="19.05" x2="4.064" y2="16.764" width="0.8128" layer="1"/>
 </signal>
 <signal name="N$4">
 <via x="4.191" y="12.954" extent="1-16" drill="0.508"/>
@@ -756,6 +755,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </signal>
 </signals>
 <errors>
+<approved hash="18,29,bfa7288183c2d824"/>
+<approved hash="18,29,a07898027f038bb9"/>
+<approved hash="18,29,af118902470385d0"/>
+<approved hash="18,29,aece27818dc2e04d"/>
 <approved hash="3,1,d91eb5c9f4e2f5d9"/>
 <approved hash="3,16,a53a190ef982ae68"/>
 <approved hash="3,1,22168bcb2be60fda"/>
@@ -764,10 +767,16 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <approved hash="3,16,c0063daa13fb5026"/>
 <approved hash="3,1,106acf2cc3526314"/>
 <approved hash="3,16,eb3cfc21947d423b"/>
-<approved hash="18,29,bfa7288183c2d824"/>
-<approved hash="18,29,a07898027f038bb9"/>
-<approved hash="18,29,af118902470385d0"/>
-<approved hash="18,29,aece27818dc2e04d"/>
+<approved hash="19,1,63051f151d126102"/>
+<approved hash="19,1,1eb962a97f1a030a"/>
+<approved hash="19,1,39515b95da23d427"/>
+<approved hash="19,1,9a4ea959a7ae6131"/>
+<approved hash="19,1,5db9fbe422fec071"/>
+<approved hash="19,1,16bd82ad9fe20bf2"/>
+<approved hash="19,1,6b01ff11fdea69fa"/>
+<approved hash="19,1,648aa7336956e4e4"/>
+<approved hash="19,1,8fb360ed83806077"/>
+<approved hash="19,1,11cefc70035647ea"/>
 <approved hash="5,1,f4444060edd01393"/>
 <approved hash="5,1,c3eb01c76f699c01"/>
 <approved hash="5,1,837ae31f513a6cf1"/>

@@ -1759,16 +1759,16 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="-10.55" y1="-4.55" x2="-10.55" y2="-3.2" width="0.2032" layer="21"/>
 <wire x1="10.55" y1="-4.55" x2="10.55" y2="-3.2" width="0.2032" layer="21"/>
 <circle x="0" y="0" radius="10" width="0.2032" layer="51"/>
-<smd name="POSITIVE@1" x="-10.922" y="1.524" dx="2.54" dy="3.175" layer="1" rot="R180" cream="no"/>
+<smd name="POSITIVE@1" x="-11.176" y="1.651" dx="2.032" dy="3.175" layer="1" rot="R180" cream="no"/>
 <smd name="NEGATIVE" x="0" y="0" dx="13" dy="8" layer="1" roundness="100" cream="no"/>
-<smd name="POSITIVE@4" x="10.922" y="-1.524" dx="2.54" dy="3.175" layer="1" cream="no"/>
-<smd name="POSITIVE@2" x="-10.922" y="-1.524" dx="2.54" dy="3.175" layer="1" cream="no"/>
-<smd name="POSITIVE@3" x="10.922" y="1.524" dx="2.54" dy="3.175" layer="1" rot="R180" cream="no"/>
+<smd name="POSITIVE@4" x="11.176" y="-1.651" dx="2.032" dy="3.175" layer="1" cream="no"/>
+<smd name="POSITIVE@2" x="-11.176" y="-1.524" dx="2.032" dy="3.175" layer="1" cream="no"/>
+<smd name="POSITIVE@3" x="11.176" y="1.524" dx="2.032" dy="3.175" layer="1" rot="R180" cream="no"/>
 <text x="-0.889" y="5.969" size="0.4064" layer="25">&gt;NAME</text>
 <text x="-0.889" y="4.699" size="0.4064" layer="27">&gt;VALUE</text>
 <rectangle x1="-2" y1="-2" x2="2" y2="2" layer="31"/>
-<rectangle x1="-12.7" y1="-3.556" x2="-9.144" y2="3.556" layer="31"/>
-<rectangle x1="9.144" y1="-3.556" x2="12.7" y2="3.556" layer="31"/>
+<rectangle x1="-13.462" y1="-3.429" x2="-9.906" y2="3.683" layer="31"/>
+<rectangle x1="9.906" y1="-3.556" x2="13.462" y2="3.556" layer="31"/>
 </package>
 <package name="BATTERY-AA-KIT">
 <description>&lt;h3&gt;BATTERY-AA-KIT&lt;/h3&gt;
