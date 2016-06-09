@@ -224,10 +224,9 @@
 <wire x1="2.1569" y1="2.5798" x2="2.0595" y2="2.551" width="0.008" layer="20" curve="180"/>
 <circle x="12.216" y="25.6286" radius="0.425" width="0.008" layer="20"/>
 <circle x="15.216" y="25.6286" radius="0.425" width="0.008" layer="20"/>
-<text x="19.3294" y="-9.527540625" size="1.778" layer="51" font="vector" ratio="15">L. Buechley, N. Seidle, P. Lewis, T. Klopfenstein</text>
 <text x="18.928078125" y="-12.316459375" size="1.778" layer="51" font="vector" ratio="15">M. West</text>
-<text x="61.9887" y="48.16601875" size="1.778" layer="47" font="vector" ratio="15">All Units Inches</text>
-<text x="63.248540625" y="40.586659375" size="1.778" layer="51" font="vector" ratio="15">Board Thickness: "0.032"</text>
+<text x="33.2867" y="37.75201875" size="1.778" layer="47" font="vector" ratio="15">All Units Inches</text>
+<text x="31.752540625" y="33.982659375" size="1.778" layer="51" font="vector" ratio="15">Board Thickness: "0.032"</text>
 <text x="26.6954" y="5.4356" size="0.9398" layer="22" font="vector" ratio="15" rot="MR0">Switched Coin Cell Battery Holder</text>
 <text x="0.508" y="19.304" size="2.1844" layer="21" font="vector" ratio="15">+</text>
 <text x="26.162" y="19.304" size="2.1844" layer="21" font="vector" ratio="15">+</text>
@@ -240,6 +239,9 @@
 <rectangle x1="12.954" y1="26.67" x2="14.478" y2="27.432" layer="21"/>
 <text x="17.7292" y="27.2796" size="1.778" layer="21" font="vector" ratio="15" rot="SR270">ON</text>
 <text x="8.001" y="27.8638" size="1.778" layer="21" font="vector" ratio="15" rot="SR270">OFF</text>
+<text x="19.05" y="-10.16" size="1.778" layer="51" font="vector" ratio="15">Jim Lindblom</text>
+<dimension x1="3.302" y1="22.86" x2="24.3078" y2="22.86" x3="13.8049" y3="32.766" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="24.3078" y1="22.86" x2="22.86" y2="2.286" x3="34.43429375" y3="11.809453125" textsize="1.778" textratio="15" layer="47" unit="inch"/>
 </plain>
 <libraries>
 <library name="SparkFun-Electromechanical">

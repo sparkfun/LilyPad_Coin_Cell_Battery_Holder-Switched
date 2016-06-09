@@ -8860,9 +8860,9 @@ DPDT SMT slide switch, AYZ0202, SWCH-08179</description>
 <sheet>
 <plain>
 <circle x="116.84" y="111.76" radius="27.4743" width="0.2032" layer="94"/>
-<text x="165.862" y="11.938" size="1.778" layer="94">L. Buechley, N. Seidle,  P. Lewis, T. Klopfenstein</text>
-<text x="168.402" y="7.112" size="1.778" layer="94">M. West</text>
+<text x="168.402" y="7.112" size="1.778" layer="94" font="vector">M. West</text>
 <text x="238.76" y="7.62" size="1.27" layer="94">v14</text>
+<text x="166.37" y="11.938" size="1.778" layer="94" font="vector">Jim Lindblom</text>
 </plain>
 <instances>
 <instance part="BAT1" gate="G$1" x="109.22" y="109.22" smashed="yes" rot="R180">
