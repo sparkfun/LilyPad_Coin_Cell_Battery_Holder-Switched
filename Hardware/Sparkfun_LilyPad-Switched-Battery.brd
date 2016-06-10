@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.001" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -155,17 +155,17 @@
 <wire x1="3.937" y1="0.3556" x2="7.366" y2="1.2446" width="0.008" layer="20" curve="103.2"/>
 <wire x1="3.9676" y1="0.3961" x2="3.9064" y2="0.3151" width="0.008" layer="20" curve="180"/>
 <wire x1="7.4125" y1="1.224" x2="7.3195" y2="1.2652" width="0.008" layer="20" curve="180"/>
-<wire x1="20.3784" y1="1.4503" x2="23.4112" y2="0.1651" width="0.008" layer="20" curve="62.8"/>
+<wire x1="20.3022" y1="1.7297" x2="23.1572" y2="-0.0635" width="0.008" layer="20" curve="62.8"/>
 <wire x1="20.4197" y1="1.4799" x2="20.3371" y2="1.4207" width="0.008" layer="20" curve="180"/>
 <wire x1="7.9204" y1="2.367" x2="7.8276" y2="2.4082" width="0.008" layer="20" curve="180"/>
 <wire x1="7.3196" y1="1.2652" x2="7.4124" y2="1.224" width="0.008" layer="20" curve="180"/>
-<wire x1="20.32" y1="1.4986" x2="7.874" y2="2.3876" width="0.008" layer="20" curve="90"/>
+<wire x1="20.2692" y1="1.8034" x2="7.874" y2="2.3876" width="0.008" layer="20" curve="90"/>
 <wire x1="20.2816" y1="1.4653" x2="20.3584" y2="1.5319" width="0.008" layer="20" curve="180"/>
 <wire x1="7.8407" y1="2.426" x2="7.9073" y2="2.3492" width="0.008" layer="20" curve="180"/>
 <wire x1="27.2796" y1="22.0726" x2="1.778" y2="24.4856" width="0.008" layer="20" curve="108.25"/>
 <wire x1="27.2358" y1="22.0468" x2="27.3234" y2="22.0984" width="0.008" layer="20" curve="180"/>
 <wire x1="1.7398" y1="24.5191" x2="1.8162" y2="24.4521" width="0.008" layer="20" curve="180"/>
-<wire x1="23.4112" y1="0.1651" x2="25.273" y2="2.0066" width="0.2032" layer="20" curve="69.88"/>
+<wire x1="23.1572" y1="-0.0635" x2="25.273" y2="2.0066" width="0.2032" layer="20" curve="69.88"/>
 <wire x1="25.323" y1="1.9974" x2="25.223" y2="2.0158" width="0.008" layer="20" curve="180"/>
 <wire x1="25.273" y1="2.0066" x2="27.2796" y2="22.0726" width="0.2032" layer="20" curve="72.18"/>
 <wire x1="25.2351" y1="2.0405" x2="25.3109" y2="1.9727" width="0.008" layer="20" curve="180"/>
@@ -189,19 +189,19 @@
 <wire x1="3.937" y1="0.3556" x2="7.366" y2="1.2446" width="0.2032" layer="20" curve="103.2"/>
 <wire x1="3.9676" y1="0.3961" x2="3.9064" y2="0.3151" width="0.008" layer="20" curve="180"/>
 <wire x1="7.4125" y1="1.224" x2="7.3195" y2="1.2652" width="0.008" layer="20" curve="180"/>
-<wire x1="20.3784" y1="1.4503" x2="23.4112" y2="0.1651" width="0.2032" layer="20" curve="62.8"/>
+<wire x1="20.3022" y1="1.7297" x2="23.1572" y2="-0.0635" width="0.2032" layer="20" curve="62.8"/>
 <wire x1="20.4197" y1="1.4799" x2="20.3371" y2="1.4207" width="0.008" layer="20" curve="180"/>
 <wire x1="23.4186" y1="0.1148" x2="23.4038" y2="0.2154" width="0.008" layer="20" curve="180"/>
 <wire x1="7.366" y1="1.2446" x2="7.874" y2="2.3876" width="0.2032" layer="20"/>
 <wire x1="7.9204" y1="2.367" x2="7.8276" y2="2.4082" width="0.008" layer="20" curve="180"/>
 <wire x1="7.3196" y1="1.2652" x2="7.4124" y2="1.224" width="0.008" layer="20" curve="180"/>
-<wire x1="20.32" y1="1.4986" x2="7.874" y2="2.3876" width="0.2032" layer="20" curve="90"/>
+<wire x1="20.2692" y1="1.8034" x2="7.874" y2="2.3876" width="0.2032" layer="20" curve="90"/>
 <wire x1="20.2816" y1="1.4653" x2="20.3584" y2="1.5319" width="0.008" layer="20" curve="180"/>
 <wire x1="7.8407" y1="2.426" x2="7.9073" y2="2.3492" width="0.008" layer="20" curve="180"/>
 <wire x1="27.2796" y1="22.0726" x2="1.778" y2="24.4856" width="0.2032" layer="20" curve="108.25"/>
 <wire x1="27.2358" y1="22.0468" x2="27.3234" y2="22.0984" width="0.008" layer="20" curve="180"/>
 <wire x1="1.7398" y1="24.5191" x2="1.8162" y2="24.4521" width="0.008" layer="20" curve="180"/>
-<wire x1="23.4112" y1="0.1651" x2="25.273" y2="2.0066" width="0.008" layer="20" curve="69.88"/>
+<wire x1="23.1572" y1="-0.0635" x2="25.273" y2="2.0066" width="0.008" layer="20" curve="69.88"/>
 <wire x1="23.4026" y1="0.2152" x2="23.4198" y2="0.115" width="0.008" layer="20" curve="180"/>
 <wire x1="25.323" y1="1.9974" x2="25.223" y2="2.0158" width="0.008" layer="20" curve="180"/>
 <wire x1="25.273" y1="2.0066" x2="27.2796" y2="22.0726" width="0.008" layer="20" curve="72.18"/>
@@ -234,7 +234,7 @@
 <text x="27.686" y="19.304" size="2.1844" layer="22" font="vector" ratio="15" rot="MR0">+</text>
 <text x="3.81" y="4.826" size="2.1844" layer="21" font="vector" ratio="15" rot="R180">-</text>
 <text x="26.924" y="5.08" size="2.1844" layer="21" font="vector" ratio="15" rot="R180">-</text>
-<text x="24.384" y="5.08" size="1.016" layer="22" font="vector" ratio="15" rot="MR180">-</text>
+<text x="24.384" y="5.08" size="2.1844" layer="22" font="vector" ratio="15" rot="MR180">-</text>
 <text x="1.27" y="4.826" size="2.1844" layer="22" font="vector" ratio="15" rot="MR180">-</text>
 <rectangle x1="12.954" y1="26.67" x2="14.478" y2="27.432" layer="21"/>
 <text x="17.7292" y="27.2796" size="1.778" layer="21" font="vector" ratio="15" rot="SR270">ON</text>
@@ -242,6 +242,8 @@
 <text x="19.05" y="-10.16" size="1.778" layer="51" font="vector" ratio="15">Jim Lindblom</text>
 <dimension x1="3.302" y1="22.86" x2="24.3078" y2="22.86" x3="13.8049" y3="32.766" textsize="1.778" textratio="15" layer="47" unit="inch"/>
 <dimension x1="24.3078" y1="22.86" x2="22.86" y2="2.286" x3="34.43429375" y3="11.809453125" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<text x="33.02" y="30.48" size="1.778" layer="47" font="vector" ratio="15">Purple Silk</text>
+<dimension x1="5.2578" y1="2.032" x2="22.8854" y2="2.032" x3="14.0716" y3="-1.27" textsize="1.778" textratio="15" layer="47" unit="inch"/>
 </plain>
 <libraries>
 <library name="SparkFun-Electromechanical">
@@ -747,7 +749,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="BATT-10373" x="13.716" y="10.922" size="1.778" layer="27" display="off"/>
 </element>
 <element name="BATB-" library="LilyPad-Wearables" package="PETAL-SMALL-2SIDE" value="SEWTAP6" x="5.2578" y="2.032"/>
-<element name="BATB-2" library="LilyPad-Wearables" package="PETAL-SMALL-2SIDE" value="SEWTAP6" x="22.86" y="2.286" rot="R10"/>
+<element name="BATB-2" library="LilyPad-Wearables" package="PETAL-SMALL-2SIDE" value="SEWTAP6" x="22.8854" y="2.032" rot="R10"/>
 <element name="BATT+" library="LilyPad-Wearables" package="PETAL-SMALL-2SIDE" value="SEWTAP6" x="3.302" y="22.86" rot="R245"/>
 <element name="BATT+2" library="LilyPad-Wearables" package="PETAL-SMALL-2SIDE" value="SEWTAP6" x="24.3078" y="22.86" rot="R125"/>
 <element name="S1" library="SparkFun-Electromechanical" package="AYZ0202" value="" x="13.716" y="25.654" rot="R180">
@@ -808,7 +810,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="BAT1" pad="NEGATIVE"/>
 <wire x1="13.716" y1="10.922" x2="13.716" y2="10.4902" width="0.8128" layer="1"/>
 <wire x1="13.716" y1="10.922" x2="14.224" y2="10.922" width="0.8128" layer="1"/>
-<wire x1="14.224" y1="10.922" x2="22.86" y2="2.286" width="0.8128" layer="1"/>
+<wire x1="14.224" y1="10.922" x2="22.8854" y2="2.032" width="0.8128" layer="1"/>
 <wire x1="13.716" y1="10.4902" x2="5.2578" y2="2.032" width="0.8128" layer="1"/>
 </signal>
 </signals>
