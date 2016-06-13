@@ -3886,6 +3886,12 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="0.8866" y="-0.23263125"/>
 </polygon>
 </package>
+<package name="FIDUCIAL-1X2">
+<smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
+</package>
+<package name="MICRO-FIDUCIAL">
+<smd name="1" x="0" y="0" dx="0.635" dy="0.635" layer="1" roundness="100" cream="no"/>
+</package>
 </packages>
 <symbols>
 <symbol name="LETTER_L">
@@ -7617,6 +7623,11 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="0.6834" y="-1.65"/>
 </polygon>
 </symbol>
+<symbol name="FIDUCIAL">
+<wire x1="-0.762" y1="0.762" x2="0.762" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="0.762" y1="0.762" x2="-0.762" y2="-0.762" width="0.254" layer="94"/>
+<circle x="0" y="0" radius="1.27" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="FRAME-LETTER" prefix="FRAME">
@@ -7793,6 +7804,25 @@ for the logo on the board is tSilk.</description>
 </technologies>
 </device>
 <device name="MINI" package="OSHW-LOGO-MINI">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FIDUCIAL" prefix="FD">
+<description>&lt;b&gt;Fiducial Alignment Points&lt;/b&gt;
+Various fiducial points for machine vision alignment.</description>
+<gates>
+<gate name="G$1" symbol="FIDUCIAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="1X2" package="FIDUCIAL-1X2">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="UFIDUCIAL" package="MICRO-FIDUCIAL">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -8855,13 +8885,15 @@ DPDT SMT slide switch, AYZ0202, SWCH-08179</description>
 <part name="U$1" library="SparkFun-Aesthetics" deviceset="REVISION" device=""/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_FLAME" device=".1_INCH" value="SFE_LOGO_FLAME.1_INCH"/>
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S" value="OSHW-LOGOS"/>
+<part name="FD1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
+<part name="FD2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <circle x="116.84" y="111.76" radius="27.4743" width="0.2032" layer="94"/>
 <text x="168.402" y="7.112" size="1.778" layer="94" font="vector">M. West</text>
-<text x="238.76" y="7.62" size="1.27" layer="94">v14</text>
+<text x="238.76" y="7.62" size="1.27" layer="94">v13</text>
 <text x="166.37" y="11.938" size="1.778" layer="94" font="vector">Jim Lindblom</text>
 </plain>
 <instances>
@@ -8890,6 +8922,8 @@ DPDT SMT slide switch, AYZ0202, SWCH-08179</description>
 <instance part="U$1" gate="G$1" x="148.844" y="6.858"/>
 <instance part="LOGO1" gate="G$1" x="213.36" y="40.64"/>
 <instance part="LOGO2" gate="G$1" x="233.68" y="48.26"/>
+<instance part="FD1" gate="G$1" x="226.06" y="27.94"/>
+<instance part="FD2" gate="G$1" x="233.68" y="27.94"/>
 </instances>
 <busses>
 </busses>
