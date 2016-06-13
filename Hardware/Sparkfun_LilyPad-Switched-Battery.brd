@@ -637,7 +637,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <param name="dpMaxLengthDifference" value="10mm"/>
 <param name="dpGapFactor" value="2.5"/>
 <param name="checkGrid" value="0"/>
-<param name="checkAngle" value="0"/>
+<param name="checkAngle" value="1"/>
 <param name="checkFont" value="1"/>
 <param name="checkRestrict" value="1"/>
 <param name="useDiameter" value="13"/>
@@ -770,23 +770,27 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="2.794" y="9.398" extent="1-16" drill="0.508"/>
 <via x="24.638" y="12.446" extent="1-16" drill="0.508"/>
 <via x="24.638" y="9.398" extent="1-16" drill="0.508"/>
-<wire x1="2.794" y1="12.446" x2="2.794" y2="9.398" width="0.8128" layer="1"/>
 <wire x1="5.334" y1="18.796" x2="13.716" y2="18.796" width="0.8128" layer="1"/>
 <wire x1="13.716" y1="18.796" x2="21.844" y2="18.796" width="0.8128" layer="1"/>
-<wire x1="24.638" y1="12.446" x2="24.892" y2="9.271" width="0.8128" layer="1"/>
-<wire x1="24.638" y1="9.398" x2="24.892" y2="9.271" width="0.8128" layer="1"/>
-<wire x1="2.54" y1="12.573" x2="2.794" y2="12.446" width="0.8128" layer="1"/>
 <wire x1="2.794" y1="9.398" x2="2.54" y2="9.398" width="0.8128" layer="1"/>
 <wire x1="13.716" y1="22.829" x2="13.716" y2="18.796" width="0.8128" layer="1"/>
 <wire x1="24.892" y1="12.446" x2="24.638" y2="12.446" width="0.254" layer="1"/>
 <wire x1="5.334" y1="18.796" x2="2.54" y2="16.002" width="0.8128" layer="1"/>
-<wire x1="2.54" y1="16.002" x2="2.54" y2="12.573" width="0.8128" layer="1"/>
 <wire x1="2.54" y1="12.573" x2="2.54" y2="12.192" width="0.8128" layer="1"/>
 <wire x1="2.54" y1="12.192" x2="2.286" y2="11.938" width="0.8128" layer="1"/>
 <wire x1="2.286" y1="11.938" x2="2.286" y2="12.319" width="0.8128" layer="1"/>
-<wire x1="2.286" y1="12.319" x2="2.54" y2="12.573" width="0.8128" layer="1"/>
 <wire x1="21.844" y1="18.796" x2="24.638" y2="16.002" width="0.8128" layer="1"/>
-<wire x1="24.638" y1="16.002" x2="24.638" y2="12.446" width="0.8128" layer="1"/>
+<wire x1="2.54" y1="16.002" x2="2.54" y2="12.573" width="0.8128" layer="1"/>
+<wire x1="2.794" y1="9.398" x2="2.794" y2="12.319" width="0.8128" layer="1"/>
+<wire x1="2.794" y1="12.319" x2="2.54" y2="12.573" width="0.8128" layer="1"/>
+<wire x1="2.794" y1="12.319" x2="2.794" y2="12.446" width="0.8128" layer="1"/>
+<wire x1="24.638" y1="12.446" x2="24.638" y2="16.002" width="0.8128" layer="1"/>
+<wire x1="24.638" y1="9.398" x2="24.638" y2="12.446" width="0.8128" layer="1"/>
+<wire x1="24.638" y1="9.398" x2="24.892" y2="9.398" width="0.8128" layer="1"/>
+<wire x1="24.892" y1="9.398" x2="25.4" y2="8.89" width="0.8128" layer="1"/>
+<wire x1="25.4" y1="8.89" x2="25.4" y2="9.779" width="0.8128" layer="1"/>
+<wire x1="25.4" y1="10.16" x2="25.4" y2="9.779" width="0.8128" layer="1"/>
+<wire x1="25.4" y1="9.779" x2="24.892" y2="9.271" width="0.8128" layer="1"/>
 </signal>
 <signal name="N$2">
 <contactref element="S1" pad="1"/>
@@ -806,9 +810,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="BATB-2" pad="1"/>
 <contactref element="BAT1" pad="NEGATIVE"/>
 <wire x1="13.716" y1="10.922" x2="13.716" y2="10.4902" width="0.8128" layer="1"/>
-<wire x1="13.716" y1="10.922" x2="14.224" y2="10.922" width="0.8128" layer="1"/>
-<wire x1="14.224" y1="10.922" x2="22.8854" y2="2.032" width="0.8128" layer="1"/>
 <wire x1="13.716" y1="10.4902" x2="5.2578" y2="2.032" width="0.8128" layer="1"/>
+<wire x1="22.8854" y1="2.032" x2="22.606" y2="2.032" width="0.8128" layer="1"/>
+<wire x1="22.606" y1="2.032" x2="13.716" y2="10.922" width="0.8128" layer="1"/>
 </signal>
 </signals>
 <errors>
@@ -873,7 +877,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <approved hash="5,1,849755f9d2e30126"/>
 <approved hash="5,1,5c3d939de629f353"/>
 <approved hash="5,1,defdeee5deeee092"/>
-<approved hash="5,1,60e116b676b71e51"/>
+<approved hash="5,1,b3b3b591c0210d08"/>
+<approved hash="5,1,3116f1be7e25985b"/>
 <approved hash="5,1,d1fdbfd5b1eac338"/>
 <approved hash="5,1,06f17ebecc48d318"/>
 <approved hash="5,1,44e67ad5e47c5fcf"/>
